@@ -53,9 +53,7 @@
 
 const choooseColor = () => {
     let inputColor = document.getElementById('inputColor').value
-    console.log(inputColor);
-    // let quadrado = document.getElementById('quadrado')
-    // quadrado.classList.remove('ok');
-    // quadrado.classList.add("style='background-color:"+inputColor+";'");
+    let quadrado = document.getElementById('quadrado')
+    quadrado.style.backgroundColor = inputColor
 
 }
