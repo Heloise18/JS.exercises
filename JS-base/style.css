@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quadrado{
+    height: 300px;
+    width: 300px;
+}
+
+.ok{
+    background-color: aquamarine;
+}
+
+.bad{
+    background-color: red;
+}
+
