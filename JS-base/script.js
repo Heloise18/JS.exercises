@@ -55,5 +55,4 @@ const choooseColor = () => {
     let inputColor = document.getElementById('inputColor').value
     let quadrado = document.getElementById('quadrado')
     quadrado.style.backgroundColor = inputColor
-
 }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container_quadrado">
+        <div class="title">🎀 To-Do-List </div>
+       
+        <div class="inputbox">
+            <input required="required" type="text" id="inputText">
+            <span>Username</span>
+            <i></i>
+         
+            <button class="button" onclick="createTask()">Criar tarefa </button>
+        </div>
+
+        <!-- Tasks que vão aparecer -->
+        <div class="task" id="task"> </div>
+
+    </div>
+
+<!-- <div id="${inputText}" class="taskConteudo"> 
+    
+    ${inputText} 
+    <button id="remove" class="remove" onclick="">
+        X
+    </button>
+
+</div> -->
+
+    <script src="scrip.js"></script>
+</body>
+</html>
